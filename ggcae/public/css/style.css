@@ -1,18 +1,17 @@
 body {
+	background: url("/images/background.jpg");
 
-		background-image: url("background.jpg");
+	font-family: Arial;
 
-		font-family: Arial;
+	display: flex;
 
-		display: flex;
+	min-height: 100vh;
 
-		min-height: 100vh;
+	flex-direction: column;
 
-		flex-direction: column;
+	margin: 0;
 
-		margin: 0;
-
-		background-color: #D3D3D3; 
+	background-color: #D3D3D3; 
 
 		}
 
@@ -26,8 +25,6 @@ body {
 
 		border: 5px solid black;
 
-		
-
 		}
 
 * {
@@ -36,34 +33,22 @@ body {
 
 }
 
-
 table.info
 
 {
-
 	width: 100%;
 
 	border: 1px solid black;
-
 }
-
-
 
 table.signin
-
 {
-
 	width: 100%;
-
 }
-
-
 
 /*These are for 3 Part Grid Areas*/
 
-.grid-container {
-
-	
+.grid-container {	
 
 	display: grid;
 
@@ -75,7 +60,6 @@ table.signin
 
 }
 
-
 .grid-item {
 
 	padding: 20px;
@@ -83,8 +67,6 @@ table.signin
 	/*font-size: 30px;*/
 
 	text-align: center;
-
-	
 
 	/*
 
@@ -96,17 +78,9 @@ table.signin
 
 	}
 
-
-
 /*These are for 5 Part Grid Areas*/
 
 .grid-container2 {
-
-	
-
-	
-
-	
 
 	display: grid;
 
@@ -114,23 +88,16 @@ table.signin
 
 	padding: 15px;
 
-	
-
 		/*border: 1px solid black;
 
 		background-color: blue;*/
-
 }
-
-
 
 .grid-item2 {
 
 	padding: 20px;
 
 	text-align: center;
-
-	
 
 	/*
 
@@ -141,29 +108,15 @@ table.signin
 	*/
 
 }
-
-
-
-
-
 p.signin {
 
 	color: blue;
 
 	text-decoration: underline;
 
-	text-decoration-color: blue;
-
-	
-
-	
+	text-decoration-color: blue;	
 
 }
-
-
-
-
-
 .menubutton {
 
 	background-color: #D3D3D3;
@@ -171,12 +124,7 @@ p.signin {
 	height: 75px;
 
 	border: 3px solid black;
-
-	
-
 }
-
-
 
 /*
 
